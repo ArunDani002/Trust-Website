@@ -5,6 +5,7 @@ const Home = () => {
   return (
     <>
     <div>
+      {/* Header */}
       <header>
         <h1 className="Title">Village & Trible Mission</h1>
       </header>
@@ -21,7 +22,6 @@ const Home = () => {
       
     </div>
     <div className="circle">
-
     </div>
     <hr/>
     <div
@@ -83,6 +83,8 @@ const Home = () => {
     <div className="circle1">
     </div>
     <br />
+
+    {/* Footer */}
     <footer className='Footer'>
       <h3>
         Contact us
