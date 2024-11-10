@@ -4,7 +4,7 @@ import Layout from './Layout'
 const Home = () => {
   return (
     <>
-    <div>
+    <div >
       {/* Header */}
       <header>
         <h1 className="Title">Village & Trible Mission</h1>
@@ -91,7 +91,7 @@ const Home = () => {
       </h3>
       <h1 >Village & Trible Mission</h1>
       <span className='FooterAddress'>
-        <h3>Address</h3>
+        <h3 style={{color:'white', fontSize:20}}>Address</h3>
         <address>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste mollitia quisquam veritatis harum commodi illo atque repudiandae, sed, qui eveniet tenetur! Voluptatem dolorum voluptas voluptatibus sed corrupti ut reiciendis provident.
         </address>
