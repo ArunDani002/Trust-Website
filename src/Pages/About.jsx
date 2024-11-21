@@ -5,6 +5,21 @@ import Layout from './Layout'
 const About = () => {
   return (
     <>
+    <header>
+          <div style={{
+            border:'1px solid black', 
+            width:60,
+            height:60,
+            borderRadius:20,
+            display:'inline-block',
+            marginLeft:50,
+            marginTop:10
+
+          }}>
+            <p>logo</p>
+          </div>
+          <h1 className="Title">Village & Trible Mission</h1>
+      </header>
       
     <div >
       <hr style={{
@@ -42,34 +57,15 @@ const About = () => {
 
       }}>
         <div
-          style={{
-            border:'1px solid',
-            borderColor:'black',
-            width:300,
-            height:400,
-            margin:10
-            
-          }}
+          className='Boxes'
         >
         </div>
         <div
-          style={{
-            border:'1px solid',
-            borderColor:'black',
-            width:300,
-            height:400,
-            margin:10
-          }}
+          className='Boxes'
         >
         </div>
         <div
-          style={{
-            border:'1px solid',
-            borderColor:'black',
-            width:300,
-            height:400,
-            margin:10
-          }}
+         className='Boxes'
         >
         </div>
         
@@ -96,34 +92,15 @@ const About = () => {
 
       }}>
         <div
-          style={{
-            border:'1px solid',
-            borderColor:'black',
-            width:300,
-            height:400,
-            margin:10
-            
-          }}
+          className='Boxes'
         >
         </div>
         <div
-          style={{
-            border:'1px solid',
-            borderColor:'black',
-            width:300,
-            height:400,
-            margin:10
-          }}
+          className='Boxes'
         >
         </div>
         <div
-          style={{
-            border:'1px solid',
-            borderColor:'black',
-            width:300,
-            height:400,
-            margin:10
-          }}
+          className='Boxes'
         >
         </div>
         
